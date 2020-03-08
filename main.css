@@ -238,6 +238,8 @@ top-image media-query max-width: 768px
 
 @media screen and (max-width: 768px) {
     #top-image .top-image-text .row .top-image-title {
+        margin-top: -180px;
+        font-size: 32px;
         text-align: left;
     }
 
@@ -313,12 +315,6 @@ top-text media-query max-width: 768px
 =============================*/
 
 @media screen and (max-width: 768px) {
-    
-    #top-image .top-image-text .row .top-image-title {
-        margin-top: -180px;
-        font-size: 32px;
-        text-align: left;
-    }
     
     #top-text  .container .row{
         margin-top: -100px;
