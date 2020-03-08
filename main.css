@@ -1181,7 +1181,7 @@ bottom-image
 #bottom-image {
     width: 100%;
     height: auto;
-    background: url("../img/bottom_image.jpg");
+    background: url("bottom_image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     width: 1230px;
