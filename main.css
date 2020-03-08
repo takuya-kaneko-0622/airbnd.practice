@@ -269,7 +269,7 @@ top-text
     margin-bottom: 100px;
 }
 
-#top-text .container-fluid .row {
+#top-text .container .row {
     width: 970px;
     margin: 0 auto;
 }
@@ -293,7 +293,7 @@ top-text media-query max-width: 992px
 =============================*/
 
 @media screen and (max-width: 992px) {
-    #top-text .container-fluid .row {
+    #top-text .container .row {
         width: 100%;
         margin: 0;
     }
@@ -307,6 +307,16 @@ top-text media-query max-width: 992px
     }
 }
 
+
+/*============================
+top-text media-query max-width: 768px
+=============================*/
+
+@media screen and (max-width: 768px) {
+    #top-text  .container .row{
+        margin-top: -100px;
+    }
+}
 
 
 
@@ -373,6 +383,10 @@ three-colum1 media-query max-width: 992px
 three-colum1 media-query max-width: 768px
 =============================*/
 @media screen and (max-width: 768px) {
+
+    #three-colum1 {
+        margin-bottom: 100px;
+    }
 
     #three-colum1 hr {
         margin: 0;
@@ -702,6 +716,10 @@ three-colum2 media-query max-width: 768px
 =============================*/
 @media screen and (max-width: 768px) {
 
+    #three-colum2 {
+        margin-bottom: 100px;
+    }
+
     #three-colum2 hr {
         margin: 0;
     }
@@ -899,6 +917,10 @@ three-colum3 media-query max-width: 992px
 three-colum3 media-query max-width: 768px
 =============================*/
 @media screen and (max-width: 768px) {
+
+    #three-colum3 {
+        margin-bottom: 100px;
+    }
 
     #three-colum3 hr {
         margin: 0;
@@ -1149,6 +1171,11 @@ question media-query max-width: 992px
 question media-query max-width: 768px
 =============================*/
 @media screen and (max-width: 768px) {
+    #details .card {
+        margin-bottom: 15px;
+        box-shadow: 1px 2px 4px  gray;
+    }
+
     #details .card img {
         width: 75px;
         height: 75px;
@@ -1337,7 +1364,7 @@ footer media-query max-width: 768px
     #footer {
         margin-bottom: 50px;
     }
-    
+
     #footer .container .row,
     #footer hr,
     #footer .footer-bottom-sns {
